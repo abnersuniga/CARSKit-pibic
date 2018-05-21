@@ -1,0 +1,30 @@
+WorkingPath: C:\Projeto\pibic-master\datasets\foursquare\CARSKit.Workspace\
+Your original rating data path: C:\Projeto\pibic-master\datasets\foursquare\foursquare_preprocessado_reduzido.csv
+Current working path: C:\Projeto\pibic-master\datasets\foursquare\CARSKit.Workspace\
+Data transformaton completed (from Compact to Binary format). See new rating file: C:\Projeto\pibic-master\datasets\foursquare\CARSKit.Workspace\ratings_binary.txt
+Dataset: ...ARSKit.Workspace\ratings_binary.txt
+DataPath: C:\Projeto\pibic-master\datasets\foursquare\CARSKit.Workspace\ratings_binary.txt
+Rating data set has been successfully loaded.
+
+/******************************************************************************************
+ *
+ * Dataset: C:\Projeto\pibic-master\datasets\foursquare\CARSKit.Workspace\ratings_binary.txt
+ * 
+ * Statistics of U-I-C Matrix:
+ * User amount: 879
+ * Item amount: 725
+ * Rate amount: 988
+ * Context dimensions: 2 (latitude, longitude)
+ * Context conditions: 1971 (latitude: 986, longitude: 985)
+ * Context situations: 986
+ * Data density: 0,00000015963088356909%
+ * Scale distribution: [1.0 x 988]
+ * Average value of all ratings: 1,000000
+ * Standard deviation of all ratings: 0,000000
+ * Mode of all rating values: 1,000000
+ * Median of all rating values: 1,000000
+ *
+ ******************************************************************************************/
+With Setup: cv -k 2 -p on --rand-seed 1 --test-view all
+Final Results by lars, Pre1: 0,000000, Pre3: 0,004000, Pre5: 0,003104, Pre10: 0,007513, Rec1: 0,000000, Rec3: 0,012000, Rec5: 0,015521, Rec10: 0,075127, F11: 0,000000, F13: 0,006667, F15: 0,005174, F110: 0,013659, AUC: 0,536355, MAP1: 0,000000, MAP3: 0,006000, MAP5: 0,006880, MAP10: 0,013890, NDCG: 0,027397, MRR: 0,013890, carskit.alg.cars.transformation.modeling.LARS@b4a017, Time: '00:00','00:45'
+

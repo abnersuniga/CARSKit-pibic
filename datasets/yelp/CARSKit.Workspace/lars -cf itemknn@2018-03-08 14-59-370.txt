@@ -1,0 +1,30 @@
+WorkingPath: C:\Projeto\pibic-master\datasets\yelp\CARSKit.Workspace\
+Your original rating data path: C:\Projeto\pibic-master\datasets\yelp\yelp_dataset_reduzido.csv
+Current working path: C:\Projeto\pibic-master\datasets\yelp\CARSKit.Workspace\
+Data transformaton completed (from Compact to Binary format). See new rating file: C:\Projeto\pibic-master\datasets\yelp\CARSKit.Workspace\ratings_binary.txt
+Dataset: ...ARSKit.Workspace\ratings_binary.txt
+DataPath: C:\Projeto\pibic-master\datasets\yelp\CARSKit.Workspace\ratings_binary.txt
+Rating data set has been successfully loaded.
+
+/************************************************************************************
+ *
+ * Dataset: C:\Projeto\pibic-master\datasets\yelp\CARSKit.Workspace\ratings_binary.txt
+ * 
+ * Statistics of U-I-C Matrix:
+ * User amount: 460
+ * Item amount: 458
+ * Rate amount: 499
+ * Context dimensions: 2 (latitude, longitude)
+ * Context conditions: 914 (latitude: 457, longitude: 457)
+ * Context situations: 456
+ * Data density: 0,00000113408298803673%
+ * Scale distribution: [2.0 x 49, 4.0 x 162, 1.0 x 28, 5.0 x 148, 3.0 x 112]
+ * Average value of all ratings: 3,707415
+ * Standard deviation of all ratings: 1,154657
+ * Mode of all rating values: 4,000000
+ * Median of all rating values: 4,000000
+ *
+ ************************************************************************************/
+With Setup: cv -k 2 -p on --rand-seed 1 --test-view all
+Final Results by lars, Pre1: 0,027778, Pre3: 0,026455, Pre5: 0,025397, Pre10: 0,012698, Rec1: 0,027778, Rec3: 0,079365, Rec5: 0,126984, Rec10: 0,126984, F11: 0,027778, F13: 0,044092, F15: 0,042328, F110: 0,023088, AUC: 0,562348, MAP1: 0,027778, MAP3: 0,048942, MAP5: 0,058466, MAP10: 0,058466, NDCG: 0,075110, MRR: 0,058466, carskit.alg.cars.transformation.modeling.LARS@3046da, Time: '00:00','00:00'
+

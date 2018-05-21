@@ -1,0 +1,30 @@
+WorkingPath: /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/
+Your original rating data path: /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/foursquare_tcc_day_hour_reduzido.csv
+Current working path: /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/
+Data transformaton completed (from Compact to Binary format). See new rating file: /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/ratings_binary.txt
+Dataset: ...ARSKit.Workspace/ratings_binary.txt
+DataPath: /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/ratings_binary.txt
+Rating data set has been successfully loaded.
+
+/**********************************************************************************************************************
+ *
+ * Dataset: /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/ratings_binary.txt
+ * 
+ * Statistics of U-I-C Matrix:
+ * User amount: 880
+ * Item amount: 726
+ * Rate amount: 989
+ * Context dimensions: 4 (day, hour, latitude, longitude)
+ * Context conditions: 2030 (day: 32, hour: 25, latitude: 987, longitude: 986)
+ * Context situations: 989
+ * Data density: 0,00000000019883505060%
+ * Scale distribution: [1.0 x 989]
+ * Average value of all ratings: 1,000000
+ * Standard deviation of all ratings: 0,000000
+ * Mode of all rating values: 1,000000
+ * Median of all rating values: 1,000000
+ *
+ **********************************************************************************************************************/
+With Setup: cv -k 2 -p on --rand-seed 1 --test-view all
+Final Results by lars, Pre1: 0,000000, Pre3: 0,003759, Pre5: 0,002980, Pre10: 0,006887, Rec1: 0,000000, Rec3: 0,011278, Rec5: 0,014901, Rec10: 0,068868, F11: 0,000000, F13: 0,006266, F15: 0,004967, F110: 0,012521, AUC: 0,533310, MAP1: 0,000000, MAP3: 0,005639, MAP5: 0,006545, MAP10: 0,012702, NDCG: 0,025057, MRR: 0,012702, carskit.alg.cars.transformation.modeling.LARS@161cd475, Time: '00:00','00:00'
+
