@@ -58,10 +58,8 @@ public class LARS extends Recommender {
         travelPenalty = normalizeDistance(distance, recUsed.maxRate, 0.0);
         timePenalty = normalizeHour(difference, recUsed.maxRate, 0.0);
 
-        System.out.println("travelPenalty: " + travelPenalty);
-
-
         p = recUsed.recommend(u, j, c);
+
 
         System.out.println(p + " - " + travelPenalty + " - " + timePenalty);
         recScore = 2*p - travelPenalty - timePenalty;

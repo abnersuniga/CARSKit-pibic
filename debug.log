@@ -1,12 +1,12 @@
-[INFO ] 2018-05-21 08:26:58,972 -- WorkingPath: /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/
-[INFO ] 2018-05-21 08:26:59,003 -- Your original rating data path: /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/foursquare_tcc_day_hour_reduzido.csv
-[INFO ] 2018-05-21 08:26:59,004 -- Current working path: /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/
-[WARN ] 2018-05-21 08:26:59,013 -- You rating data is in Compact format. CARSKit is working on transformation on the data format...
-[INFO ] 2018-05-21 08:26:59,529 -- Data transformaton completed (from Compact to Binary format). See new rating file: /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/ratings_binary.txt
-[INFO ] 2018-05-21 08:26:59,563 -- Dataset: ...ARSKit.Workspace/ratings_binary.txt
-[INFO ] 2018-05-21 08:26:59,569 -- DataPath: /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/ratings_binary.txt
-[INFO ] 2018-05-21 08:27:00,412 -- Rating data set has been successfully loaded.
-[INFO ] 2018-05-21 08:27:00,431 -- 
+[INFO ] 2018-05-29 13:01:13,934 -- WorkingPath: /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/
+[INFO ] 2018-05-29 13:01:14,154 -- Your original rating data path: /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/foursquare_tcc_day_hour_reduzido.csv
+[INFO ] 2018-05-29 13:01:14,155 -- Current working path: /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/
+[WARN ] 2018-05-29 13:01:14,295 -- You rating data is in Compact format. CARSKit is working on transformation on the data format...
+[INFO ] 2018-05-29 13:01:15,483 -- Data transformaton completed (from Compact to Binary format). See new rating file: /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/ratings_binary.txt
+[INFO ] 2018-05-29 13:01:16,443 -- Dataset: ...ARSKit.Workspace/ratings_binary.txt
+[INFO ] 2018-05-29 13:01:16,503 -- DataPath: /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/ratings_binary.txt
+[INFO ] 2018-05-29 13:01:19,719 -- Rating data set has been successfully loaded.
+[INFO ] 2018-05-29 13:01:19,985 -- 
 /**********************************************************************************************************************
  *
  * Dataset: /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/ratings_binary.txt
@@ -26,29 +26,45 @@
  * Median of all rating values: 1,000000
  *
  **********************************************************************************************************************/
-[INFO ] 2018-05-21 08:27:00,435 -- With Setup: cv -k 2 -p on --rand-seed 1 --test-view all
-[DEBUG] 2018-05-21 08:27:00,469 -- Fold [1]: training amount: 494, test amount: 495
-[DEBUG] 2018-05-21 08:27:00,507 -- Build item similarity matrix ...
-[DEBUG] 2018-05-21 08:27:00,600 -- ItemKNNUnary fold [1] evaluate test data ... 
-[DEBUG] 2018-05-21 08:27:00,612 -- ItemKNNUnary fold [1] has candidate items: 401
-[DEBUG] 2018-05-21 08:27:01,398 -- ItemKNNUnary fold [1] evaluates progress: 100 / 468
-[DEBUG] 2018-05-21 08:27:02,018 -- ItemKNNUnary fold [1] evaluates progress: 300 / 468
-[DEBUG] 2018-05-21 08:27:02,699 -- ItemKNNUnary fold [1] evaluates progress: 500 / 468
-[DEBUG] 2018-05-21 08:27:03,696 -- ItemKNNUnary fold [1] has writeen item recommendations to /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/ItemKNNUnary-top-10-items fold [1].txt
-[DEBUG] 2018-05-21 08:27:03,704 -- ItemKNNUnary fold [1]: Pre1: 0,000000, Pre3: 0,000000, Pre5: 0,001449, Pre10: 0,003623, Rec1: 0,000000, Rec3: 0,000000, Rec5: 0,007246, Rec10: 0,036232, F11: 0,000000, F13: 0,000000, F15: 0,002415, F110: 0,006588, AUC: 0,517518, MAP1: 0,000000, MAP3: 0,000000, MAP5: 0,001812, MAP10: 0,005354, NDCG: 0,012159, MRR: 0,005354	Time: 00:00, 00:03
-[DEBUG] 2018-05-21 08:27:04,141 -- Fold [2]: training amount: 495, test amount: 494
-[DEBUG] 2018-05-21 08:27:04,143 -- LARS fold [1] evaluate test data ... 
-[DEBUG] 2018-05-21 08:27:04,147 -- LARS fold [1] has candidate items: 401
-[DEBUG] 2018-05-21 08:27:04,148 -- Build item similarity matrix ...
-[DEBUG] 2018-05-21 08:27:04,182 -- ItemKNNUnary fold [2] evaluate test data ... 
-[DEBUG] 2018-05-21 08:27:04,185 -- ItemKNNUnary fold [2] has candidate items: 409
-[DEBUG] 2018-05-21 08:27:05,119 -- ItemKNNUnary fold [2] evaluates progress: 200 / 465
-[DEBUG] 2018-05-21 08:27:05,866 -- ItemKNNUnary fold [2] evaluates progress: 400 / 465
-[DEBUG] 2018-05-21 08:27:06,476 -- ItemKNNUnary fold [2] evaluates progress: 600 / 465
-[DEBUG] 2018-05-21 08:27:06,842 -- ItemKNNUnary fold [2] evaluates progress: 700 / 465
-[DEBUG] 2018-05-21 08:27:07,407 -- ItemKNNUnary fold [2] evaluates progress: 800 / 465
-[DEBUG] 2018-05-21 08:27:07,572 -- LARS fold [1] evaluates progress: 100 / 468
-[DEBUG] 2018-05-21 08:27:07,794 -- ItemKNNUnary fold [2] has writeen item recommendations to /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/ItemKNNUnary-top-10-items fold [2].txt
-[DEBUG] 2018-05-21 08:27:07,799 -- ItemKNNUnary fold [2]: Pre1: 0,000000, Pre3: 0,007519, Pre5: 0,004511, Pre10: 0,010150, Rec1: 0,000000, Rec3: 0,022556, Rec5: 0,022556, Rec10: 0,101504, F11: 0,000000, F13: 0,012531, F15: 0,007519, F110: 0,018455, AUC: 0,549103, MAP1: 0,000000, MAP3: 0,011278, MAP5: 0,011278, MAP10: 0,020050, NDCG: 0,037954, MRR: 0,020050	Time: 00:00, 00:03
-[DEBUG] 2018-05-21 08:27:08,603 -- LARS fold [2] evaluate test data ... 
-[DEBUG] 2018-05-21 08:27:08,611 -- LARS fold [2] has candidate items: 409
+[INFO ] 2018-05-29 13:01:19,995 -- With Setup: cv -k 2 -p on --rand-seed 1 --test-view all
+[DEBUG] 2018-05-29 13:01:20,041 -- Fold [1]: training amount: 494, test amount: 495
+[DEBUG] 2018-05-29 13:01:20,182 -- Build item similarity matrix ...
+[DEBUG] 2018-05-29 13:01:20,649 -- ItemKNNUnary fold [1] evaluate test data ... 
+[DEBUG] 2018-05-29 13:01:20,977 -- ItemKNNUnary fold [1] has candidate items: 401
+[DEBUG] 2018-05-29 13:01:21,943 -- ItemKNNUnary fold [1] evaluates progress: 100 / 468
+[DEBUG] 2018-05-29 13:01:23,948 -- ItemKNNUnary fold [1] evaluates progress: 300 / 468
+[DEBUG] 2018-05-29 13:01:34,942 -- ItemKNNUnary fold [1] evaluates progress: 500 / 468
+[DEBUG] 2018-05-29 13:01:37,061 -- ItemKNNUnary fold [1] has writeen item recommendations to /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/ItemKNNUnary-top-10-items fold [1].txt
+[DEBUG] 2018-05-29 13:01:38,740 -- ItemKNNUnary fold [1]: Pre1: 0,000000, Pre3: 0,000000, Pre5: 0,001449, Pre10: 0,003623, Rec1: 0,000000, Rec3: 0,000000, Rec5: 0,007246, Rec10: 0,036232, F11: 0,000000, F13: 0,000000, F15: 0,002415, F110: 0,006588, AUC: 0,517518, MAP1: 0,000000, MAP3: 0,000000, MAP5: 0,001812, MAP10: 0,005354, NDCG: 0,012159, MRR: 0,005354	Time: 00:00, 00:17
+[DEBUG] 2018-05-29 13:01:44,344 -- Fold [2]: training amount: 495, test amount: 494
+[DEBUG] 2018-05-29 13:01:44,346 -- LARS fold [1] evaluate test data ... 
+[DEBUG] 2018-05-29 13:01:44,352 -- Build item similarity matrix ...
+[DEBUG] 2018-05-29 13:01:47,393 -- ItemKNNUnary fold [2] evaluate test data ... 
+[DEBUG] 2018-05-29 13:01:49,807 -- LARS fold [1] has candidate items: 401
+[DEBUG] 2018-05-29 13:01:49,807 -- ItemKNNUnary fold [2] has candidate items: 409
+[DEBUG] 2018-05-29 13:01:51,296 -- ItemKNNUnary fold [2] evaluates progress: 200 / 465
+[DEBUG] 2018-05-29 13:01:52,382 -- ItemKNNUnary fold [2] evaluates progress: 400 / 465
+[DEBUG] 2018-05-29 13:01:53,041 -- ItemKNNUnary fold [2] evaluates progress: 600 / 465
+[DEBUG] 2018-05-29 13:01:54,176 -- ItemKNNUnary fold [2] evaluates progress: 700 / 465
+[DEBUG] 2018-05-29 13:01:54,671 -- LARS fold [1] evaluates progress: 100 / 468
+[DEBUG] 2018-05-29 13:01:56,820 -- ItemKNNUnary fold [2] evaluates progress: 800 / 465
+[DEBUG] 2018-05-29 13:01:57,852 -- ItemKNNUnary fold [2] has writeen item recommendations to /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/ItemKNNUnary-top-10-items fold [2].txt
+[DEBUG] 2018-05-29 13:01:57,866 -- ItemKNNUnary fold [2]: Pre1: 0,000000, Pre3: 0,007519, Pre5: 0,004511, Pre10: 0,010150, Rec1: 0,000000, Rec3: 0,022556, Rec5: 0,022556, Rec10: 0,101504, F11: 0,000000, F13: 0,012531, F15: 0,007519, F110: 0,018455, AUC: 0,549103, MAP1: 0,000000, MAP3: 0,011278, MAP5: 0,011278, MAP10: 0,020050, NDCG: 0,037954, MRR: 0,020050	Time: 00:03, 00:10
+[DEBUG] 2018-05-29 13:01:59,226 -- LARS fold [2] evaluate test data ... 
+[DEBUG] 2018-05-29 13:01:59,230 -- LARS fold [2] has candidate items: 409
+[DEBUG] 2018-05-29 13:02:03,874 -- LARS fold [1] evaluates progress: 300 / 468
+[DEBUG] 2018-05-29 13:02:05,810 -- LARS fold [2] evaluates progress: 200 / 465
+[DEBUG] 2018-05-29 13:02:12,073 -- LARS fold [1] evaluates progress: 500 / 468
+[DEBUG] 2018-05-29 13:02:14,249 -- LARS fold [2] evaluates progress: 400 / 465
+[DEBUG] 2018-05-29 13:02:18,462 -- LARS fold [2] evaluates progress: 600 / 465
+[DEBUG] 2018-05-29 13:02:20,531 -- LARS fold [2] evaluates progress: 700 / 465
+[DEBUG] 2018-05-29 13:02:21,232 -- LARS fold [1] has writeen item recommendations to /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/LARS-top-10-items fold [1].txt
+[DEBUG] 2018-05-29 13:02:21,234 -- LARS fold [1]: Pre1: 0,144928, Pre3: 0,048309, Pre5: 0,037681, Pre10: 0,023551, Rec1: 0,144928, Rec3: 0,144928, Rec5: 0,188406, Rec10: 0,235507, F11: 0,144928, F13: 0,080515, F15: 0,062802, F110: 0,042819, AUC: 0,616685, MAP1: 0,144928, MAP3: 0,144928, MAP5: 0,154710, MAP10: 0,161712, NDCG: 0,178651, MRR: 0,161712	Time: 00:00, 00:36
+[DEBUG] 2018-05-29 13:02:23,067 -- LARS fold [2] evaluates progress: 800 / 465
+[DEBUG] 2018-05-29 13:02:24,552 -- LARS fold [2] has writeen item recommendations to /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/LARS-top-10-items fold [2].txt
+[DEBUG] 2018-05-29 13:02:24,555 -- LARS fold [2]: Pre1: 0,105263, Pre3: 0,035088, Pre5: 0,027068, Pre10: 0,018797, Rec1: 0,105263, Rec3: 0,105263, Rec5: 0,135338, Rec10: 0,187970, F11: 0,105263, F13: 0,058480, F15: 0,045113, F110: 0,034176, AUC: 0,592888, MAP1: 0,105263, MAP3: 0,105263, MAP5: 0,112030, MAP10: 0,119243, NDCG: 0,134770, MRR: 0,119243	Time: 00:00, 00:25
+[DEBUG] 2018-05-29 13:02:24,592 -- Evaluation for fold 1 has written to file: /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/lars -cf itemknnunary_evalfolds.csv
+[DEBUG] 2018-05-29 13:02:24,593 -- Evaluation for fold 2 has written to file: /home/abnersuniga/Abner/CARSKit-pibic/datasets/foursquare_hour_reduzido/CARSKit.Workspace/lars -cf itemknnunary_evalfolds.csv
+[INFO ] 2018-05-29 13:02:24,596 -- Final Results by lars, Pre1: 0,125095, Pre3: 0,041698, Pre5: 0,032374, Pre10: 0,021174, Rec1: 0,125095, Rec3: 0,125095, Rec5: 0,161872, Rec10: 0,211739, F11: 0,125095, F13: 0,069497, F15: 0,053957, F110: 0,038498, AUC: 0,604787, MAP1: 0,125095, MAP3: 0,125095, MAP5: 0,133370, MAP10: 0,140478, NDCG: 0,156711, MRR: 0,140478, carskit.alg.cars.transformation.modeling.LARS@29444d75, Time: '00:00','00:31'
+
+[DEBUG] 2018-05-29 13:02:24,623 -- Have been collected to file: results_all_2016.txt
