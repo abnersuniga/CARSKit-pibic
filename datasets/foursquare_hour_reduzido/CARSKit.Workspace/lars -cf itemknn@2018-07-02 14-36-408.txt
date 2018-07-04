@@ -26,5 +26,5 @@ Rating data set has been successfully loaded.
  *
  **********************************************************************************************************************/
 With Setup: cv -k 2 -p on --rand-seed 1 --test-view all
-Final Results by lars, Pre1: 0,132478, Pre3: 0,044159, Pre5: 0,033851, Pre10: 0,021912, Rec1: 0,132478, Rec3: 0,132478, Rec5: 0,169255, Rec10: 0,219121, F11: 0,132478, F13: 0,073599, F15: 0,056418, F110: 0,039840, AUC: 0,608478, MAP1: 0,132478, MAP3: 0,132478, MAP5: 0,140753, MAP10: 0,147860, NDCG: 0,164093, MRR: 0,147860, carskit.alg.cars.transformation.modeling.LARS@44e81672, Time: '00:00','00:05'
+Final Results by lars, Pre1: 0,000000, Pre3: 0,003759, Pre5: 0,002980, Pre10: 0,006887, Rec1: 0,000000, Rec3: 0,011278, Rec5: 0,014901, Rec10: 0,068868, F11: 0,000000, F13: 0,006266, F15: 0,004967, F110: 0,012521, AUC: 0,533310, MAP1: 0,000000, MAP3: 0,005639, MAP5: 0,006545, MAP10: 0,012702, NDCG: 0,025057, MRR: 0,012702, carskit.alg.cars.transformation.modeling.LARS@44e81672, Time: '00:00','00:05'
 
